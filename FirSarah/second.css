@@ -1,0 +1,43 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('love.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 1); /* Adjust the alpha value (0.8) to make it less transparent */
+}
+
+
+.final_word{
+    color: rgb(68, 3, 129);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.hoverable:hover {
+    font-size: 24px; /* Increase the font size on hover */
+}
+
+.shrink{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    text-align: center; /* Align images to the center of the container */
+}
+
+.image-container img {
+    display: inline-block; /* Display images as inline-block elements */
+    width: 200px; /* Set width of each image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Add margin between images */
+}

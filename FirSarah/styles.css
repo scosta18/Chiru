@@ -1,0 +1,36 @@
+.bod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(175, 170, 181);
+}
+
+.container {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#acceptButton {
+    background-color: rgb(0, 252, 13);
+}
+
+#rejectButton{
+    background-color: rgb(255, 0, 0);
+}
+
+.imageLoadBackgorund {
+    background-color: rgb(210, 81, 81);
+}
+
+.blk{
+    color: rgba(255, 7, 7, 0.578);
+}
+
+/*second page*/
